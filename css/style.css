@@ -1850,3 +1850,21 @@ input#mc-embedded-subscribe {
   padding: 0;
   padding-top: 30px;
 }
+
+#home {
+  background-image: url(../img/hero/rommef-hero.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 10%,
+        rgba(0, 0, 0, 0) 40%
+      ),
+      url(../img/hero/hero-mobile.jpeg);
+  }
+}
